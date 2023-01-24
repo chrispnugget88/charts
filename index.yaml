@@ -3,7 +3,7 @@ entries:
   papermerge:
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T16:12:09.1062556-05:00"
+    created: "2023-01-24T16:27:53.7459125-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -33,11 +33,11 @@ entries:
     - https://github.com/chrispnugget88/papermerge-helm
     type: application
     urls:
-    - chrispnugget88.github.io/charts/papermerge-0.4.3.tgz
+    - chrispnugget88.github.io/papermerge-0.4.3.tgz
     version: 0.4.3
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T16:12:09.1015659-05:00"
+    created: "2023-01-24T16:27:53.742731-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -65,11 +65,11 @@ entries:
     name: papermerge
     type: application
     urls:
-    - chrispnugget88.github.io/charts/papermerge-0.4.2.tgz
+    - chrispnugget88.github.io/papermerge-0.4.2.tgz
     version: 0.4.2
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T16:12:09.0978413-05:00"
+    created: "2023-01-24T16:27:53.7377997-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -96,6 +96,6 @@ entries:
     name: papermerge
     type: application
     urls:
-    - chrispnugget88.github.io/charts/papermerge-0.4.1.tgz
+    - chrispnugget88.github.io/papermerge-0.4.1.tgz
     version: 0.4.1
-generated: "2023-01-24T16:12:09.0945753-05:00"
+generated: "2023-01-24T16:27:53.7318761-05:00"
