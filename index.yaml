@@ -3,7 +3,39 @@ entries:
   papermerge:
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T00:38:57.3184088-05:00"
+    created: "2023-01-24T15:56:45.8087835-05:00"
+    dependencies:
+    - alias: PapermergeBackendAPI
+      name: backend
+      repository: ""
+      version: 2.1.4
+    - alias: PapermergeFrontend
+      name: frontend
+      repository: ""
+      version: 2.1.2
+    - alias: PapermergeWorker
+      name: worker
+      repository: ""
+      version: 2.1.4
+    - alias: PapermergeWebsocketServer
+      name: wsserver
+      repository: ""
+      version: 2.1.4
+    description: Papermerge helm chart for Kubernetes
+    digest: 6f03ed3f11b45d07d05a22e75cca55eb71724341a67aa1b45391faed39b9404c
+    home: https://github.com/chrispnugget88/papermerge-helm/tree/9c024697a69d96b612821bb77f5db67376d50928
+    icon: https://github.com/ciur/papermerge/blob/79f1d152701f984957f9dee58e8196fc3924871c/artwork/logo-transp-bg.svg
+    maintainers:
+    - email: jason@gh4.io
+      name: Jason
+    name: papermerge
+    type: application
+    urls:
+    - chrispnugget88.github.io/charts/papermerge-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v2
+    appVersion: 2.1.4
+    created: "2023-01-24T15:56:45.8059431-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -30,6 +62,6 @@ entries:
     name: papermerge
     type: application
     urls:
-    - chrispnugget88.github.io/papermerge-0.4.1.tgz
+    - chrispnugget88.github.io/charts/papermerge-0.4.1.tgz
     version: 0.4.1
-generated: "2023-01-24T00:38:57.3028648-05:00"
+generated: "2023-01-24T15:56:45.8031584-05:00"
