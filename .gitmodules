@@ -1,0 +1,3 @@
+[submodule "charts/papermerge"]
+	path = charts/papermerge
+	url = https://github.com/chrispnugget88/papermerge-helm.git
