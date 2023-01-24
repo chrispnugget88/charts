@@ -3,7 +3,7 @@ entries:
   papermerge:
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T16:06:29.7970473-05:00"
+    created: "2023-01-24T16:12:09.1062556-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -37,7 +37,7 @@ entries:
     version: 0.4.3
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T16:06:29.7944091-05:00"
+    created: "2023-01-24T16:12:09.1015659-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -69,7 +69,7 @@ entries:
     version: 0.4.2
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T16:06:29.7867523-05:00"
+    created: "2023-01-24T16:12:09.0978413-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -98,4 +98,4 @@ entries:
     urls:
     - chrispnugget88.github.io/charts/papermerge-0.4.1.tgz
     version: 0.4.1
-generated: "2023-01-24T16:06:29.7834699-05:00"
+generated: "2023-01-24T16:12:09.0945753-05:00"
