@@ -1,41 +1,12 @@
 apiVersion: v1
 entries:
-  beets:
-  - annotations:
-      artifacthub.io/changes: |-
-        - kind: changed
-          description: Upgraded `common` chart dependency to version 4.5.2
-    apiVersion: v2
-    appVersion: 1.5.0
-    created: "2023-01-24T20:42:52.4773491-05:00"
-    dependencies:
-    - name: common
-      repository: https://library-charts.k8s-at-home.com
-      version: 4.5.2
-    description: beets helm package
-    digest: 5dfbc63c20c4d6bd49c58b0e2228350140c6da0df0d041a0427341250205f235
-    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/beets
-    icon: https://pbs.twimg.com/profile_images/934307246/logo-square_400x400.png
-    keywords:
-    - beets
-    kubeVersion: '>=1.16.0-0'
-    maintainers:
-    - email: contact@dangmai.net
-      name: dangmai
-    name: beets
-    sources:
-    - https://github.com/beetbox/beets
-    - https://github.com/linuxserver/docker-beets
-    urls:
-    - beets-1.4.2.tgz
-    version: 1.4.2
   nginx:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.23.3
-    created: "2023-01-24T20:42:52.4822268-05:00"
+    created: "2023-01-24T20:55:46.4524649-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -62,12 +33,12 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/nginx
     - https://www.nginx.org
     urls:
-    - nginx-13.2.22 (1).tgz
+    - https://chrispnugget88.github.io/charts/nginx-13.2.22%20%281%29.tgz
     version: 13.2.22
   papermerge:
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T20:42:52.4941986-05:00"
+    created: "2023-01-24T20:55:46.4605972-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -97,11 +68,11 @@ entries:
     - https://github.com/chrispnugget88/papermerge-helm
     type: application
     urls:
-    - papermerge-0.4.3.tgz
+    - https://chrispnugget88.github.io/charts/papermerge-0.4.3.tgz
     version: 0.4.3
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T20:42:52.4899996-05:00"
+    created: "2023-01-24T20:55:46.4578888-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -129,11 +100,11 @@ entries:
     name: papermerge
     type: application
     urls:
-    - papermerge-0.4.2.tgz
+    - https://chrispnugget88.github.io/charts/papermerge-0.4.2.tgz
     version: 0.4.2
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T20:42:52.4850399-05:00"
+    created: "2023-01-24T20:55:46.4551882-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -160,6 +131,6 @@ entries:
     name: papermerge
     type: application
     urls:
-    - papermerge-0.4.1.tgz
+    - https://chrispnugget88.github.io/charts/papermerge-0.4.1.tgz
     version: 0.4.1
-generated: "2023-01-24T20:42:52.469536-05:00"
+generated: "2023-01-24T20:55:46.444296-05:00"
