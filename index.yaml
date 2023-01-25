@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.23.3
-    created: "2023-01-24T20:55:46.4524649-05:00"
+    created: "2023-01-24T22:46:01.5632203-05:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -38,7 +38,41 @@ entries:
   papermerge:
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T20:55:46.4605972-05:00"
+    created: "2023-01-24T22:46:01.5737609-05:00"
+    dependencies:
+    - alias: PapermergeBackendAPI
+      name: backend
+      repository: ""
+      version: 2.1.4
+    - alias: PapermergeFrontend
+      name: frontend
+      repository: ""
+      version: 2.1.2
+    - alias: PapermergeWorker
+      name: worker
+      repository: ""
+      version: 2.1.4
+    - alias: PapermergeWebsocketServer
+      name: wsserver
+      repository: ""
+      version: 2.1.4
+    description: Papermerge helm chart for Kubernetes
+    digest: 65745ad024cb864f4d55ae035b57928cfc4b532e0a7e20e79e70a6985b86f850
+    home: https://github.com/chrispnugget88/papermerge-helm
+    icon: https://github.com/ciur/papermerge/raw/master/artwork/logo.png
+    maintainers:
+    - email: jason@gh4.io
+      name: Jason
+    name: papermerge
+    sources:
+    - https://github.com/chrispnugget88/papermerge-helm
+    type: application
+    urls:
+    - https://chrispnugget88.github.io/charts/papermerge-0.4.4.tgz
+    version: 0.4.4
+  - apiVersion: v2
+    appVersion: 2.1.4
+    created: "2023-01-24T22:46:01.5707059-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -72,7 +106,7 @@ entries:
     version: 0.4.3
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T20:55:46.4578888-05:00"
+    created: "2023-01-24T22:46:01.568041-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -104,7 +138,7 @@ entries:
     version: 0.4.2
   - apiVersion: v2
     appVersion: 2.1.4
-    created: "2023-01-24T20:55:46.4551882-05:00"
+    created: "2023-01-24T22:46:01.5659405-05:00"
     dependencies:
     - alias: PapermergeBackendAPI
       name: backend
@@ -133,4 +167,4 @@ entries:
     urls:
     - https://chrispnugget88.github.io/charts/papermerge-0.4.1.tgz
     version: 0.4.1
-generated: "2023-01-24T20:55:46.444296-05:00"
+generated: "2023-01-24T22:46:01.5540164-05:00"
